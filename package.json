@@ -1,0 +1,15 @@
+{
+	"scripts": {
+		"build": "webpack",
+		"start:dev": "webpack-dev-server --content-base build/"
+	},
+	"dependencies": {
+		"pixi.js": "^4.7.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"webpack": "^3.11.0",
+		"webpack-dev-server": "^2.11.1"
+	}
+}
