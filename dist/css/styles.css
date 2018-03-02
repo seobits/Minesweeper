@@ -1,0 +1,15 @@
+input, select, label, button{
+	font-size: 15pt;
+}
+
+body{
+	margin: 0;
+}
+
+.equal-column{
+	margin: 10px;
+}
+
+.equal-column div{
+	margin: 10px;
+}

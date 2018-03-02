@@ -1,0 +1,46 @@
+<html>
+	<head>
+			<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimum-scale=1, width=device-width, height=device-height">
+			<meta name="apple-mobile-web-app-capable" content="yes">
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<link rel="stylesheet" type="text/css" href="./css/editor.css">
+	</head>
+	<body>
+		<button id="toggle-overlay-button">Show Options</button>
+			<div id="overlay-menu" class="overlay">
+				<form id="form">
+					<div class="equal-column level-setup">
+						<h3>Level Setup</h3>
+						<div>
+							<input name="toggleMineEditor" type="checkbox"><label>Enable Mine Editing</label>
+						</div>
+						<div>
+							<label>Width </label><input name="boardWidth" type="number" min="2">
+							<label>Height </label><input name="boardHeight" type="number" min="2">
+						</div>
+						<div>
+							<label>Mines </label><input name="mines" type="number" min="1">
+						</div>
+						<div>
+							<button name="updateLevel" type="button">Update Level</button>
+						</div>
+						
+					</div>
+					<div class="equal-column level-management">
+						<h3>Level Management</h3>
+						<div>
+							<input type="text" name="levelName" placeholder="Level Name">	
+							<button name="saveLevel" type="button">Save Level</button>
+						</div>
+						<div>
+							<select name="selectLevel">
+								<option selected disabled>Select Level</option>
+							</select>
+							<button name="loadLevel" type="button">Load Level</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		<script src="bundle.js"></script>
+	</body>
+</html>

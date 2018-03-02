@@ -1,0 +1,44 @@
+.overlay{
+	user-select: none;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 15pt;
+	overflow: auto;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	visibility: hidden;
+}
+
+.button-editor-mine{
+	width: 5vh;
+	height: 5vh;
+}
+
+.overlay input[type="checkbox"]{
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+}
+
+.level-setup input[type="number"]{
+	text-align: right;
+	width: 70px;
+}
+
+.level-management button{
+	max-width: 150px;
+	width: 40%;
+}
+
+.level-management input, select{
+	max-width: 200px;
+	width: 50%;
+}
+
+#toggle-overlay-button{
+	position: fixed;
+	z-index: 1;
+}
